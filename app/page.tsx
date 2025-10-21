@@ -15,19 +15,18 @@ import data from "../public/data.json";
 type Product = {
   id: string;
   name: string;
-  category: string;
-  sizeRange: string;
+  categoryName: string;
+  sizeRangeName: string;
   gender: string;
+  version: number;
 };
 
 type DataStructure = {
-  version: {
-    [key: string]: Product[];
-  };
+  standardProducts: Product[];
 };
 
 export default function Home() {
-  const [selectedVersion, setSelectedVersion] = useState<string>("");
+  const [selectedVersion, setSelectedVersion] = useState<number>(1);
   const [sorting, setSorting] = useState<SortingState>([
     { id: "id", desc: false },
   ]);
@@ -37,24 +36,26 @@ export default function Home() {
   const [genderFilter, setGenderFilter] = useState<string[]>([]);
 
   const typedData = data as DataStructure;
-  const versions = Object.keys(typedData.version);
+  
+  // Get unique versions from the data
+  const versions = useMemo(() => {
+    const versionSet = new Set<number>();
+    typedData.standardProducts.forEach((p) => versionSet.add(p.version));
+    return Array.from(versionSet).sort();
+  }, [typedData.standardProducts]);
 
-  // Set initial version if not set
-  if (!selectedVersion && versions.length > 0) {
-    setSelectedVersion(versions[0]);
-  }
-
+  // Filter products by selected version
   const products = useMemo(() => {
-    return selectedVersion ? typedData.version[selectedVersion] || [] : [];
-  }, [selectedVersion, typedData.version]);
+    return typedData.standardProducts.filter((p) => p.version === selectedVersion);
+  }, [selectedVersion, typedData.standardProducts]);
 
   // Get unique values for filters
   const uniqueCategories = useMemo(() => {
-    return Array.from(new Set(products.map((p) => p.category))).sort();
+    return Array.from(new Set(products.map((p) => p.categoryName))).sort();
   }, [products]);
 
   const uniqueSizeRanges = useMemo(() => {
-    return Array.from(new Set(products.map((p) => p.sizeRange))).sort();
+    return Array.from(new Set(products.map((p) => p.sizeRangeName))).sort();
   }, [products]);
 
   const uniqueGenders = useMemo(() => {
@@ -77,7 +78,7 @@ export default function Home() {
       },
     },
     {
-      accessorKey: "category",
+      accessorKey: "categoryName",
       header: "Category",
       cell: (info) => info.getValue(),
       filterFn: (row, columnId, filterValue: string[]) => {
@@ -87,7 +88,7 @@ export default function Home() {
       },
     },
     {
-      accessorKey: "sizeRange",
+      accessorKey: "sizeRangeName",
       header: "Size Range",
       cell: (info) => info.getValue(),
       filterFn: (row, columnId, filterValue: string[]) => {
@@ -121,12 +122,12 @@ export default function Home() {
 
     // Category filter
     if (categoryFilter.length > 0) {
-      result = result.filter((p) => categoryFilter.includes(p.category));
+      result = result.filter((p) => categoryFilter.includes(p.categoryName));
     }
 
     // Size range filter
     if (sizeRangeFilter.length > 0) {
-      result = result.filter((p) => sizeRangeFilter.includes(p.sizeRange));
+      result = result.filter((p) => sizeRangeFilter.includes(p.sizeRangeName));
     }
 
     // Gender filter
@@ -187,7 +188,7 @@ export default function Home() {
         <div className="flex justify-end mb-4">
           <select
             value={selectedVersion}
-            onChange={(e) => setSelectedVersion(e.target.value)}
+            onChange={(e) => setSelectedVersion(Number(e.target.value))}
             className="px-4 py-2 border border-gray-300 rounded-md bg-white"
           >
             <option value="" disabled>
@@ -195,7 +196,7 @@ export default function Home() {
             </option>
             {versions.map((version) => (
               <option key={version} value={version}>
-                {version}
+                v{version}.0
               </option>
             ))}
           </select>

@@ -153,7 +153,8 @@ export default function Home() {
   const handleDownload = (format: "csv" | "xlsx") => {
     // Download the actual CSV or XLSX file from public directory
     const a = document.createElement("a");
-    a.href = `./assort-site/data.${format}`;
+    const prefix = process.env.NODE_ENV === 'development' ? 'assort-site/' : '';
+    a.href = `./${prefix}data.${format}`;
     a.download = `data.${format}`;
     document.body.appendChild(a);
     a.click();

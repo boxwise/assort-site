@@ -151,18 +151,14 @@ export default function Home() {
   });
 
   const handleDownload = (format: "csv" | "xlsx") => {
-    // For now, download data.json as specified
-    const blob = new Blob([JSON.stringify(typedData, null, 2)], {
-      type: "application/json",
-    });
-    const url = URL.createObjectURL(blob);
+    // Download the actual CSV or XLSX file from public directory
     const a = document.createElement("a");
-    a.href = url;
+    // Use relative path that works with basePath
+    a.href = `./data.${format}`;
     a.download = `data.${format}`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-    URL.revokeObjectURL(url);
   };
 
   const handleCheckboxChange = (

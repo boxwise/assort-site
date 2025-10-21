@@ -1,0 +1,88 @@
+name: Fetch Products Data
+
+on:
+  # Run weekly on Monday at 00:00 UTC
+  schedule:
+    - cron: '0 0 * * 1'
+  
+  # Allow manual trigger for testing
+  workflow_dispatch:
+
+# Set permissions to allow writing to the repository
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+      
+      - name: Fetch data from GraphQL API
+        run: |
+          curl -X POST https://shared.boxtribute.org/public \
+            -H "Content-Type: application/json" \
+            -d '{"query": "{ standardProducts { id name categoryName sizeRangeName gender version}}"}' \
+            -o /tmp/response.json
+          
+          # Extract only the data field content
+          jq '.data' /tmp/response.json > /tmp/data.json
+      
+      - name: Check if data has changed
+        id: check_changes
+        run: |
+          if [ ! -f public/data.json ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          elif ! diff -q /tmp/data.json public/data.json > /dev/null; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Update data files
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          # Copy new JSON data
+          cp /tmp/data.json public/data.json
+          
+          # Convert JSON to CSV using jq
+          jq -r '.standardProducts | (.[0] | to_entries | map(.key) | @csv), (.[] | to_entries | map(.value) | @csv)' public/data.json > public/data.csv
+          
+          # Install exceljs for XLSX conversion
+          npm install exceljs
+          
+          # Create conversion script
+          cat > convert-to-xlsx.js << 'EOF'
+          const ExcelJS = require('exceljs');
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('public/data.json','utf8'));
+          const arr = data.standardProducts || data;
+          const wb = new ExcelJS.Workbook();
+          const ws = wb.addWorksheet('Sheet1');
+          if (arr.length) {
+            ws.columns = Object.keys(arr[0]).map(k => ({ header: k, key: k }));
+            arr.forEach(item => ws.addRow(item));
+          }
+          wb.xlsx.writeFile('public/data.xlsx').then(() => console.log('saved'));
+          EOF
+          
+          # Run the conversion script
+          node convert-to-xlsx.js
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data.json public/data.csv public/data.xlsx
+          git commit -m "Update standard products data"
+          git push

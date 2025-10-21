@@ -1,0 +1,106 @@
+{
+  "version": {
+    "v1.0": [
+      {
+        "id": "001",
+        "name": "T-Shirt",
+        "category": "Clothing",
+        "sizeRange": "S-XL",
+        "gender": "Unisex"
+      },
+      {
+        "id": "002",
+        "name": "Jeans",
+        "category": "Clothing",
+        "sizeRange": "28-40",
+        "gender": "Unisex"
+      },
+      {
+        "id": "003",
+        "name": "Blanket",
+        "category": "Bedding",
+        "sizeRange": "Standard",
+        "gender": "Unisex"
+      },
+      {
+        "id": "004",
+        "name": "Water Bottle",
+        "category": "Kitchen",
+        "sizeRange": "1L",
+        "gender": "Unisex"
+      },
+      {
+        "id": "005",
+        "name": "Shoes",
+        "category": "Footwear",
+        "sizeRange": "36-45",
+        "gender": "Male"
+      },
+      {
+        "id": "006",
+        "name": "Dress",
+        "category": "Clothing",
+        "sizeRange": "S-XL",
+        "gender": "Female"
+      },
+      {
+        "id": "007",
+        "name": "Backpack",
+        "category": "Accessories",
+        "sizeRange": "Standard",
+        "gender": "Unisex"
+      },
+      {
+        "id": "008",
+        "name": "Jacket",
+        "category": "Clothing",
+        "sizeRange": "S-XXL",
+        "gender": "Male"
+      },
+      {
+        "id": "009",
+        "name": "Sandals",
+        "category": "Footwear",
+        "sizeRange": "36-42",
+        "gender": "Female"
+      },
+      {
+        "id": "010",
+        "name": "Towel",
+        "category": "Bedding",
+        "sizeRange": "Standard",
+        "gender": "Unisex"
+      }
+    ],
+    "v1.1": [
+      {
+        "id": "001",
+        "name": "T-Shirt",
+        "category": "Clothing",
+        "sizeRange": "XS-XXL",
+        "gender": "Unisex"
+      },
+      {
+        "id": "002",
+        "name": "Jeans",
+        "category": "Clothing",
+        "sizeRange": "28-42",
+        "gender": "Unisex"
+      },
+      {
+        "id": "003",
+        "name": "Blanket",
+        "category": "Bedding",
+        "sizeRange": "Standard",
+        "gender": "Unisex"
+      },
+      {
+        "id": "011",
+        "name": "Socks",
+        "category": "Clothing",
+        "sizeRange": "S-L",
+        "gender": "Unisex"
+      }
+    ]
+  }
+}

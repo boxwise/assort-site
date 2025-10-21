@@ -1,0 +1,19 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # image: assort-site-dev
+    working_dir: /usr/src/app
+    # Mount source so edits reflect immediately in the container (hot-reload)
+    volumes:
+      - ./:/usr/src/app:delegated
+      - /usr/src/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - HOST=0.0.0.0
+      - PORT=3003
+    ports:
+      - "3003:3003"
+    command: npm run dev
+    restart: unless-stopped

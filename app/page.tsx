@@ -153,8 +153,7 @@ export default function Home() {
   const handleDownload = (format: "csv" | "xlsx") => {
     // Download the actual CSV or XLSX file from public directory
     const a = document.createElement("a");
-    // Use relative path that works with basePath
-    a.href = `./data.${format}`;
+    a.href = `./assort-site/data.${format}`;
     a.download = `data.${format}`;
     document.body.appendChild(a);
     a.click();

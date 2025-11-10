@@ -1,119 +1,37 @@
 "categoryName","gender","id","name","sizeRangeName","version"
-"Underwear / Nightwear","Boy","4","Leggings","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Underwear / Nightwear","Girl","11","Leggings","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Underwear / Nightwear","Boy","149","Underwear","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Underwear / Nightwear","Women","150","Bras","Bra sizes",1
-"Underwear / Nightwear","Women","151","Leggings","XS, S, M, L, XL, XXL",1
-"Underwear / Nightwear","Women","152","Underwear","XS, S, M, L, XL, XXL",1
-"Underwear / Nightwear","Girl","154","Undershirts / Tank Tops","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Underwear / Nightwear","Girl","155","Underwear","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Underwear / Nightwear","Men","156","Leggings","XS, S, M, L, XL, XXL",1
-"Underwear / Nightwear","Men","157","Underwear","XS, S, M, L, XL, XXL",1
-"Bottoms","Boy","3","Joggers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Bottoms","Boy","5","Shorts","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Bottoms","Boy","6","Trousers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
 "Bottoms","Women","7","Joggers","XS, S, M, L, XL, XXL",1
 "Bottoms","Women","8","Shorts","XS, S, M, L, XL, XXL",1
 "Bottoms","Women","9","Trousers","XS, S, M, L, XL, XXL",1
-"Bottoms","Girl","10","Joggers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Bottoms","Girl","12","Shorts","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
 "Bottoms","Men","13","Joggers","XS, S, M, L, XL, XXL",1
 "Bottoms","Men","14","Shorts","XS, S, M, L, XL, XXL",1
 "Bottoms","Men","15","Trousers","XS, S, M, L, XL, XXL",1
-"Bottoms","UnisexBaby","16","Baby Trousers","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
-"Bottoms","Girl","28","Trousers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Tops","Boy","129","Jumpers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Tops","Boy","130","Long Sleeve Tops","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Tops","Boy","131","T-Shirts / Short Sleeves","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Tops","Boy","132","Undershirts / Tank Tops","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Clothing","Women","20","Dresses / Skirts","XS, S, M, L, XL, XXL",1
+"Jackets / Outerwear","Women","90","Summer Jackets","XS, S, M, L, XL, XXL",1
+"Jackets / Outerwear","Women","91","Winter Jackets","XS, S, M, L, XL, XXL",1
+"Jackets / Outerwear","Men","94","Summer Jackets","XS, S, M, L, XL, XXL",1
+"Jackets / Outerwear","Men","95","Winter Jackets","XS, S, M, L, XL, XXL",1
 "Tops","Women","133","Bodywarmers / Sleeveless Jumpers","XS, S, M, L, XL, XXL",1
 "Tops","Women","134","Jumpers","XS, S, M, L, XL, XXL",1
 "Tops","Women","135","Long Sleeve Tops","XS, S, M, L, XL, XXL",1
 "Tops","Women","136","T-Shirts / Short Sleeves","XS, S, M, L, XL, XXL",1
 "Tops","Women","137","Undershirts / Tank Tops","XS, S, M, L, XL, XXL",1
-"Tops","Girl","139","Jumpers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Tops","Girl","140","Long Sleeve Tops","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
 "Tops","Men","141","Bodywarmers / Sleeveless Jumpers","XS, S, M, L, XL, XXL",1
 "Tops","Men","142","Jumpers","XS, S, M, L, XL, XXL",1
 "Tops","Men","143","Long Sleeve Tops","XS, S, M, L, XL, XXL",1
 "Tops","Men","144","T-Shirts / Short Sleeves","XS, S, M, L, XL, XXL",1
 "Tops","Men","145","Undershirts / Tank Tops","XS, S, M, L, XL, XXL",1
-"Tops","UnisexBaby","146","Baby Jumpers","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
-"Tops","UnisexBaby","147","Baby Tops","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
-"Tops","UnisexKid","148","Bodywarmers / Sleeveless Jumpers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Tops","Girl","153","T-Shirts / Short Sleeves","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Shoes","Boy","114","Light Shoes","Shoe sizes children",1
-"Shoes","Boy","115","Practical Shoes","Shoe sizes children",1
-"Shoes","Boy","116","Sandals & Flip Flops","Shoe sizes children",1
+"Underwear / Nightwear","Women","151","Leggings","XS, S, M, L, XL, XXL",1
+"Underwear / Nightwear","Women","152","Underwear","XS, S, M, L, XL, XXL",1
+"Underwear / Nightwear","Men","156","Leggings","XS, S, M, L, XL, XXL",1
+"Underwear / Nightwear","Men","157","Underwear","XS, S, M, L, XL, XXL",1
 "Shoes","Women","117","Light Shoes","Shoe sizes Female",1
 "Shoes","Women","118","Practical Shoes","Shoe sizes Female",1
 "Shoes","Women","119","Sandals & Flip Flops","Shoe sizes Female",1
-"Shoes","Girl","121","Light Shoes","Shoe sizes children",1
-"Shoes","Girl","122","Practical Shoes","Shoe sizes children",1
-"Shoes","Men","123","Light Shoes","Shoe sizes Male",1
-"Shoes","Men","124","Practical Shoes","Shoe sizes Male",1
-"Shoes","Men","125","Sandals & Flip Flops","Shoe sizes Male",1
-"Shoes","UnisexAdult","126","Rubber Rain Boots","Mixed sizes",1
-"Shoes","UnisexBaby","127","Baby Shoes","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
-"Shoes","UnisexKid","128","Rubber Rain Boots","Mixed sizes",1
-"Shoes","Girl","138","Sandals & Flip Flops","Shoe sizes children",1
-"Shoes","UnisexKid","163","Light Shoes","Shoe sizes children",1
-"Shoes","UnisexKid","164","Practical Shoes","Shoe sizes children",1
-"Shoes","UnisexKid","165","Sandals & Flip Flops","Shoe sizes children",1
-"Jackets / Outerwear","Boy","88","Summer Jackets","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Jackets / Outerwear","Boy","89","Winter Jackets","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Jackets / Outerwear","Women","90","Summer Jackets","XS, S, M, L, XL, XXL",1
-"Jackets / Outerwear","Women","91","Winter Jackets","XS, S, M, L, XL, XXL",1
-"Jackets / Outerwear","Girl","93","Summer Jackets","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
-"Jackets / Outerwear","Men","94","Summer Jackets","XS, S, M, L, XL, XXL",1
-"Jackets / Outerwear","Men","95","Winter Jackets","XS, S, M, L, XL, XXL",1
-"Jackets / Outerwear","UnisexAdult","96","Misc. Outer Protective Gear","Mixed sizes",1
-"Jackets / Outerwear","UnisexBaby","97","Baby Jackets / Outerwear","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
-"Jackets / Outerwear","UnisexKid","98","Misc. Outer Protective Gear","Mixed sizes",1
-"Jackets / Outerwear","Girl","120","Winter Jackets","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
 "Baby","UnisexBaby","1","Baby Bibs","Mixed sizes",1
 "Baby","UnisexBaby","2","Baby Blankets","Mixed sizes",1
-"Other","none","99","Backpacks","Mixed sizes",1
-"Other","none","100","Suitcases and Bags","Mixed sizes",1
-"Hygiene","none","47","Bleach","Mixed sizes",1
-"Hygiene","none","57","ASTM 1 Masks","Mixed sizes",1
-"Hygiene","none","58","ASTM 2 Masks ","Mixed sizes",1
-"Hygiene","none","59","ASTM 3/FFP2/FFP3/N95 Masks","Mixed sizes",1
-"Hygiene","none","60","Combs, Hair Ties, Brushes","Mixed sizes",1
-"Hygiene","none","61","Condoms","One size",1
-"Hygiene","none","62","Deodorant","One size",1
-"Hygiene","none","63","Disposable Gloves","Mixed sizes",1
-"Hygiene","none","64","Hand Sanitizer / Antibacterial Handgel","One size",1
-"Hygiene","none","65","Isopropryl Alcohol","Mixed sizes",1
-"Hygiene","none","66","Lotion / Moisturizer","Mixed sizes",1
-"Hygiene","none","67","Makeup","Mixed sizes",1
-"Hygiene","none","68","Razors (Disposable)","One size",1
-"Hygiene","none","69","Reusable Masks","Mixed sizes",1
-"Hygiene","none","70","Shampoo","Mixed sizes",1
-"Hygiene","none","71","Shaving Foam","Mixed sizes",1
-"Hygiene","none","72","Shower Gel","Mixed sizes",1
-"Hygiene","none","73","Soap","Mixed sizes",1
-"Hygiene","none","74","Sunscreen","Mixed sizes",1
-"Hygiene","none","75","Toothbrushes","Singlepack, Multipack",1
-"Hygiene","none","76","Toothpaste","Singlepack, Multipack",1
-"Hygiene","none","77","Wet Wipes / Baby Wipes","One size",1
-"Hygiene","Women","78","Sanitary Pads","Mixed sizes",1
-"Hygiene","UnisexAdult","79","Incontinence Pads","Mixed sizes",1
-"Hygiene","UnisexBaby","87","Diapers","Diaper sizes",1
-"Food & Kitchen","none","46","Basins","Mixed sizes",1
-"Food & Kitchen","none","48","Bowls","Mixed sizes",1
-"Food & Kitchen","none","49","Canned / Jarred Food","Mixed sizes",1
-"Food & Kitchen","none","50","Dishes","Mixed sizes",1
-"Food & Kitchen","none","51","Dry Food","Mixed sizes",1
-"Food & Kitchen","none","52","Eating Utensils","Mixed sizes",1
-"Food & Kitchen","none","53","Pots & pans","Mixed sizes",1
-"Food & Kitchen","none","54","Sponges","Mixed sizes",1
-"Food & Kitchen","none","55","Washing up liquid","Mixed sizes",1
-"Food & Kitchen","none","56","Wooden cooking spoons","Mixed sizes",1
 "Clothing","Boy","17","Summer Hats","Mixed sizes",1
 "Clothing","Boy","18","Winter Hats","Mixed sizes",1
 "Clothing","Women","19","Abayas","Mixed sizes",1
-"Clothing","Women","20","Dresses / Skirts","XS, S, M, L, XL, XXL",1
 "Clothing","Women","21","Gloves","Mixed sizes",1
 "Clothing","Women","22","Hijabs ","Mixed sizes",1
 "Clothing","Women","23","Scarves","Mixed sizes",1
@@ -121,7 +39,6 @@
 "Clothing","Women","25","Thick Socks","Mixed sizes",1
 "Clothing","Women","26","Thin Socks","Mixed sizes",1
 "Clothing","Women","27","Winter Hats","Mixed sizes",1
-"Clothing","Girl","29","Dresses / Skirts","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
 "Clothing","Girl","30","Summer Hats","Mixed sizes",1
 "Clothing","Men","31","Scarves","Mixed sizes",1
 "Clothing","Men","32","Summer Hats","Mixed sizes",1
@@ -131,24 +48,44 @@
 "Clothing","UnisexAdult","36","Gloves","Mixed sizes",1
 "Clothing","UnisexBaby","37","Baby Gloves","Mixed sizes",1
 "Clothing","UnisexBaby","38","Baby Hats","Mixed sizes",1
-"Clothing","UnisexBaby","39","Baby Onesies","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
-"Clothing","UnisexBaby","40","Baby Rompers / Bodies","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
 "Clothing","UnisexBaby","41","Baby Socks","Mixed sizes",1
 "Clothing","UnisexKid","42","Gloves","Mixed sizes",1
 "Clothing","UnisexKid","43","Scarves","Mixed sizes",1
 "Clothing","UnisexKid","44","Thick Socks","Mixed sizes",1
 "Clothing","UnisexKid","45","Thin Socks","Mixed sizes",1
+"Food & Kitchen","none","46","Basins","Mixed sizes",1
+"Hygiene","none","47","Bleach","Mixed sizes",1
+"Food & Kitchen","none","48","Bowls","Mixed sizes",1
+"Food & Kitchen","none","49","Canned / Jarred Food","Mixed sizes",1
+"Food & Kitchen","none","50","Dishes","Mixed sizes",1
+"Food & Kitchen","none","51","Dry Food","Mixed sizes",1
+"Food & Kitchen","none","52","Eating Utensils","Mixed sizes",1
+"Food & Kitchen","none","53","Pots & pans","Mixed sizes",1
+"Food & Kitchen","none","54","Sponges","Mixed sizes",1
+"Food & Kitchen","none","55","Washing up liquid","Mixed sizes",1
+"Food & Kitchen","none","56","Wooden cooking spoons","Mixed sizes",1
+"Hygiene","none","57","ASTM 1 Masks","Mixed sizes",1
+"Hygiene","none","58","ASTM 2 Masks ","Mixed sizes",1
+"Hygiene","none","59","ASTM 3/FFP2/FFP3/N95 Masks","Mixed sizes",1
+"Hygiene","none","60","Combs, Hair Ties, Brushes","Mixed sizes",1
+"Hygiene","none","63","Disposable Gloves","Mixed sizes",1
+"Hygiene","none","65","Isopropryl Alcohol","Mixed sizes",1
+"Hygiene","none","66","Lotion / Moisturizer","Mixed sizes",1
+"Hygiene","none","67","Makeup","Mixed sizes",1
+"Hygiene","none","69","Reusable Masks","Mixed sizes",1
+"Hygiene","none","70","Shampoo","Mixed sizes",1
+"Hygiene","none","71","Shaving Foam","Mixed sizes",1
+"Hygiene","none","72","Shower Gel","Mixed sizes",1
+"Hygiene","none","73","Soap","Mixed sizes",1
+"Hygiene","none","74","Sunscreen","Mixed sizes",1
+"Hygiene","Women","78","Sanitary Pads","Mixed sizes",1
+"Hygiene","UnisexAdult","79","Incontinence Pads","Mixed sizes",1
 "Clothing","Girl","92","Winter Hats","Mixed sizes",1
-"Clothing","Men","166","Gloves","Mixed sizes",1
-"Clothing","UnisexAdult","167","Thick Socks","Mixed sizes",1
-"Clothing","UnisexAdult","168","Thin Socks","Mixed sizes",1
-"Clothing","UnisexKid","169","Winter Hats","Mixed sizes",1
+"Jackets / Outerwear","UnisexAdult","96","Misc. Outer Protective Gear","Mixed sizes",1
+"Jackets / Outerwear","UnisexKid","98","Misc. Outer Protective Gear","Mixed sizes",1
+"Other","none","99","Backpacks","Mixed sizes",1
+"Other","none","100","Suitcases and Bags","Mixed sizes",1
 "Toys & Games","none","101","Toys","Mixed sizes",1
-"Water","none","158","Bottled water","Singlepack, Multipack",1
-"Water","none","159","Drinking Vessels","Mixed sizes",1
-"Water","none","160","Water Storage Containers (>20L)","Mixed sizes",1
-"Water","none","161","Water Storage Containers (<10L)","Mixed sizes",1
-"Water","none","162","Water Storage Containers (10-20L)","Mixed sizes",1
 "Shelter","none","102","Umbrellas","Mixed sizes",1
 "Shelter","none","103","Bedsheets","Mixed sizes",1
 "Shelter","none","104","Blankets","Mixed sizes",1
@@ -161,3 +98,66 @@
 "Shelter","none","111","Tarps","Mixed sizes",1
 "Shelter","none","112","Tents","Mixed sizes",1
 "Shelter","none","113","Towels","Mixed sizes",1
+"Shoes","UnisexAdult","126","Rubber Rain Boots","Mixed sizes",1
+"Shoes","UnisexKid","128","Rubber Rain Boots","Mixed sizes",1
+"Water","none","159","Drinking Vessels","Mixed sizes",1
+"Water","none","160","Water Storage Containers (>20L)","Mixed sizes",1
+"Water","none","161","Water Storage Containers (<10L)","Mixed sizes",1
+"Water","none","162","Water Storage Containers (10-20L)","Mixed sizes",1
+"Clothing","Men","166","Gloves","Mixed sizes",1
+"Clothing","UnisexAdult","167","Thick Socks","Mixed sizes",1
+"Clothing","UnisexAdult","168","Thin Socks","Mixed sizes",1
+"Clothing","UnisexKid","169","Winter Hats","Mixed sizes",1
+"Hygiene","none","61","Condoms","One size",1
+"Hygiene","none","62","Deodorant","One size",1
+"Hygiene","none","64","Hand Sanitizer / Antibacterial Handgel","One size",1
+"Hygiene","none","68","Razors (Disposable)","One size",1
+"Hygiene","none","77","Wet Wipes / Baby Wipes","One size",1
+"Shoes","Men","123","Light Shoes","Shoe sizes Male",1
+"Shoes","Men","124","Practical Shoes","Shoe sizes Male",1
+"Shoes","Men","125","Sandals & Flip Flops","Shoe sizes Male",1
+"Shoes","Boy","114","Light Shoes","Shoe sizes children",1
+"Shoes","Boy","115","Practical Shoes","Shoe sizes children",1
+"Shoes","Boy","116","Sandals & Flip Flops","Shoe sizes children",1
+"Shoes","Girl","121","Light Shoes","Shoe sizes children",1
+"Shoes","Girl","122","Practical Shoes","Shoe sizes children",1
+"Shoes","Girl","138","Sandals & Flip Flops","Shoe sizes children",1
+"Shoes","UnisexKid","163","Light Shoes","Shoe sizes children",1
+"Shoes","UnisexKid","164","Practical Shoes","Shoe sizes children",1
+"Shoes","UnisexKid","165","Sandals & Flip Flops","Shoe sizes children",1
+"Hygiene","UnisexBaby","87","Diapers","Diaper sizes",1
+"Underwear / Nightwear","Women","150","Bras","Bra sizes",1
+"Hygiene","none","75","Toothbrushes","Singlepack, Multipack",1
+"Hygiene","none","76","Toothpaste","Singlepack, Multipack",1
+"Water","none","158","Bottled water","Singlepack, Multipack",1
+"Bottoms","UnisexBaby","16","Baby Trousers","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
+"Clothing","UnisexBaby","39","Baby Onesies","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
+"Clothing","UnisexBaby","40","Baby Rompers / Bodies","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
+"Jackets / Outerwear","UnisexBaby","97","Baby Jackets / Outerwear","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
+"Shoes","UnisexBaby","127","Baby Shoes","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
+"Tops","UnisexBaby","146","Baby Jumpers","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
+"Tops","UnisexBaby","147","Baby Tops","Baby by month (0-2, 3-6, 7-12, 13-18, 19-24)",1
+"Bottoms","Boy","3","Joggers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Underwear / Nightwear","Boy","4","Leggings","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Bottoms","Boy","5","Shorts","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Bottoms","Boy","6","Trousers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Bottoms","Girl","10","Joggers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Underwear / Nightwear","Girl","11","Leggings","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Bottoms","Girl","12","Shorts","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Bottoms","Girl","28","Trousers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Clothing","Girl","29","Dresses / Skirts","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Jackets / Outerwear","Boy","88","Summer Jackets","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Jackets / Outerwear","Boy","89","Winter Jackets","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Jackets / Outerwear","Girl","93","Summer Jackets","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Jackets / Outerwear","Girl","120","Winter Jackets","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Tops","Boy","129","Jumpers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Tops","Boy","130","Long Sleeve Tops","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Tops","Boy","131","T-Shirts / Short Sleeves","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Tops","Boy","132","Undershirts / Tank Tops","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Tops","Girl","139","Jumpers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Tops","Girl","140","Long Sleeve Tops","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Tops","UnisexKid","148","Bodywarmers / Sleeveless Jumpers","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Underwear / Nightwear","Boy","149","Underwear","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Tops","Girl","153","T-Shirts / Short Sleeves","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Underwear / Nightwear","Girl","154","Undershirts / Tank Tops","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1
+"Underwear / Nightwear","Girl","155","Underwear","Children by year (2-3, 4-5, 6-7, 8-9, 10-11, 12-13, 14-15)",1

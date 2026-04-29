@@ -1,3 +1,6 @@
+> [!NOTE]
+> This page is now part of the main webpage: https://www.boxtribute.org/assort-standard
+
 # ASSORT site
 
 This repository contains the code for the site informing on the ASSORT humanitarian aid standard and associated standard products.
